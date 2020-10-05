@@ -1,12 +1,18 @@
 // Buttons
 // When the button with id "display-name-button" is clicked, remove
 // the "invisible" class from the alert with id "display-name"
-const displayNameButton = document.querySelector('#display-name-button');
+// link const to the button
+const displayNameButton = document.querySelector('#display-name-button'); 
 
+// when you click
 displayNameButton.addEventListener('click', () => {
+    // const linked to invisible class that has name
     const displayName = document.querySelector('#display-name');
+    // remove invisible class so you can see name
     displayName.classList.remove('invisible');
 });
+
+
 
 // Mouse Over
 // When the mouse hovers over the image with id "light-bulb", change
